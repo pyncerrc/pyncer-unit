@@ -1,0 +1,20 @@
+{
+    "name": "pyncer/unit",
+    "type": "library",
+    "description": "Pyncer library containing common interfaces, traits, and classes.",
+    "homepage": "https://pyncer.com/unit",
+    "license": "Unlicense",
+    "require": {
+        "php": ">=8.1",
+        "pyncer/exception": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyncer\\Unit\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/pyncerrc/pyncer-unit/issues",
+        "source": "https://github.com/pyncerrc/pyncer-unit"
+    }
+}
