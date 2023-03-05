@@ -65,7 +65,7 @@ class UnitConverter
         }
 
         foreach ($units as $unit) {
-            if (!($unit instanceof UnitInterface)) {
+            if (!$unit instanceof UnitInterface) {
                 throw new InvalidArgumentException(
                     'Units array must contain \Pyncer\Unit\UnitInterface implementations only.'
                 );
